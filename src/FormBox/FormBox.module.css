@@ -1,0 +1,36 @@
+.form-container {
+  position: relative;
+  top: 10rem;
+  background-color: aliceblue;
+  width: 35%;
+  margin: auto;
+  border-radius: 15px;
+  text-align: left;
+  padding: 20px;
+}
+.form-container label {
+  display: inline-block;
+  padding: 5px;
+  font-size: large;
+  font-weight: bolder;
+}
+.form-container input {
+  width: 100%;
+  font-size: large;
+  padding: 3px;
+  border: solid rgba(0, 0, 0, 0.192) 1px;
+  outline: none;
+}
+.form-container button {
+  margin-top: 25px;
+  background-color: slateblue;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 10rem;
+  height: 2rem;
+}
+.form-container button:hover {
+  box-shadow: black 0px 0px 5px 0px;
+}
